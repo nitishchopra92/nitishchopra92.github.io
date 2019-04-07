@@ -1047,6 +1047,18 @@ font-family: 'Lora-Regular';
 
 /* Top Section */
 
+@media screen and (max-width: 1199px) and (min-width: 992px){
+    .timeline-desc {
+        width: 71%;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .timeline-desc {
+        width: 65%;
+    }
+}
+
 @media screen and (max-width: 992px) and (min-width: 767px){
     .block-main-title{
         font-size: 70px
@@ -1139,9 +1151,6 @@ font-family: 'Lora-Regular';
         margin-left: 0px;
         margin-top: 15px
     }
-}
-
-@media screen and (max-width: 767px){
 
     ul.skills-list li {
         width: 35px
@@ -1226,18 +1235,5 @@ font-family: 'Lora-Regular';
     
     ul.skills-list li .progress .percentage {
         width: 20px
-    }
-}
-
-@media screen and (max-width: 1199px) and (min-width: 992px){
-    .timeline-desc {
-        width: 71%;
-    }
-}
-
-
-@media screen and (max-width: 991px) and (min-width: 768px){
-    .timeline-desc {
-        width: 65%;
     }
 }
