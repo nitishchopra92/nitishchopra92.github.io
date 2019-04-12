@@ -1068,16 +1068,19 @@ font-family: 'Lora-Regular';
 @media screen and (max-width: 767px){
 
     .wrapper {
-        margin: 0.8rem;
+        margin: 0.6rem;
+        min-height: 77vh;
     }
 
     .wrapper-inner {
         padding: 0.8rem;
+        min-height: 77vh
     }
 
     .inner-container{
-        padding-top: 20px;
-        padding-bottom: 20px
+        padding-top: 10px;
+        padding-bottom: 10px;
+        min-height: 77vh
     }
     
     .header .right-part {
