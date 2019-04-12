@@ -1105,7 +1105,7 @@ font-family: 'Lora-Regular';
         padding-top: 70px !important;
         padding-bottom: 70px !important;
     }
-    
+
     .about-content {
         position: relative;
         top: -50px;
@@ -1115,16 +1115,55 @@ font-family: 'Lora-Regular';
         padding-bottom: 20px !important
     }
 
-    .resume-inner {
-        padding-bottom: 20px !important
+    /* Resume */
+    
+    .resume .container{
+        padding-top: 70px !important;
+        padding-bottom: 70px !important;
     }
 
-    .skill-inner{
-        padding-bottom: 20px !important
+    .resume .resume-inner {
+        padding-bottom: 20px !important;
+        border: 10px solid #ffffff;
     }
-    .inner-work{
+
+    .timeline-desc {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 15px
+    }
+
+    /* Skill */
+    
+    .skills .container{
+        padding-top: 70px !important;
+        padding-bottom: 70px !important;
+    }
+
+    .skills .skill-inner{
+        padding-bottom: 20px !important;
+        border: 10px solid #fafafa;
+    }
+
+    .block-skills ul.skills-list {
+        height: 70vh;
+    }
+
+    .block-skills ul.skills-list li{
+        height: 70vh;
+    }
+
+    /* Work */
+    
+    .work .container{
+        padding-top: 70px !important;
+        padding-bottom: 70px !important;
+    }
+
+    .work .inner-work{
         padding-left: 15px;
-        padding-right: 15px
+        padding-right: 15px;
+        border: 10px solid #ffffff
     }
     .row.about-content {
         padding-top: 20px
@@ -1137,7 +1176,6 @@ font-family: 'Lora-Regular';
     .work .cover-leter-content::after{
         width: 35vw;
     }
-
 
     .inner-container .profile-img img {
         border: 5px solid #fafafa;
@@ -1163,11 +1201,7 @@ font-family: 'Lora-Regular';
         padding-left: 15px;
         padding-right: 15px;
     }
-    .timeline-desc {
-        width: 81%;
-        margin-left: 0px;
-        margin-top: 15px
-    }
+    
 
     ul.skills-list li {
         width: 35px
