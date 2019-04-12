@@ -971,6 +971,13 @@ ul.language-list {
     font-size: 0.9rem;
 }
 
+.work .cover-leter-content p span{
+    font-family: 'Lora-Italic'; 
+    color: #ffffff;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
 .work .cover-letter-link .overlay:before{
     opacity: 0;
 }
