@@ -232,14 +232,14 @@ body {
 .wrapper {
 	background-image: linear-gradient(45deg ,#4e93e6 30%, #864be3 70%);
 	margin: 2rem;
-	height: 96vh;
+	min-height: 96vh;
 	position: relative;
 }
 .wrapper-inner {
 	background:url(../img/patt.png);
 	background-position: center center;
     background-repeat: repeat;	
-	height: 96vh;
+	min-height: 96vh;
 	padding: 2.5rem;
 }
 
@@ -306,7 +306,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 77vh;
+	min-height: 96vh;
 	position: relative;
 }
 
@@ -1075,6 +1075,11 @@ font-family: 'Lora-Regular';
         padding: 0.8rem;
     }
 
+    .inner-container{
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+    
     .header .right-part {
         flex: 1;
     }
