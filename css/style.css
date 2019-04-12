@@ -1082,6 +1082,10 @@ font-family: 'Lora-Regular';
         padding-bottom: 10px;
         min-height: 77vh
     }
+
+    .inner-about{
+        border: 10px solid #efefef;
+    }
     
     .header .right-part {
         flex: 1;
