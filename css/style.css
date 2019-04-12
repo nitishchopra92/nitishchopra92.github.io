@@ -1238,6 +1238,15 @@ font-family: 'Lora-Regular';
     }
 }
 
+@media screen and (max-width: 576px){
+    .block-skills ul.skills-list {
+        height: 50vh;
+    }
+
+    .block-skills ul.skills-list li{
+        height: 50vh;
+    }
+}
 @media screen and (max-width: 476px){
     ul.skills-list{
         height: 40vh;
