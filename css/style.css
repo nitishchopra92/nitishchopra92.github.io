@@ -1146,11 +1146,35 @@ font-family: 'Lora-Regular';
     }
 
     .block-skills ul.skills-list {
-        height: 70vh;
+        height: 80vh;
     }
 
     .block-skills ul.skills-list li{
-        height: 70vh;
+        height: 80vh;
+    }
+
+    ul.skills-list li {
+        width: 35px
+    }
+
+    ul.skills-list li h4 {
+        left: 11px
+    }
+
+    ul.skills-list .percentage span{
+        left: 24px;
+    }
+    
+    ul.skills-list li .progress .percentage {
+        width: 35px
+    }
+
+    .row .col-sm-12:nth-child(odd) {
+        margin-bottom: 30px
+    }
+    
+    .row .col-sm-12:nth-child(last) {
+        margin-bottom: 0px
     }
 
     /* Work */
@@ -1203,31 +1227,11 @@ font-family: 'Lora-Regular';
     }
     
 
-    ul.skills-list li {
-        width: 35px
-    }
-
-    ul.skills-list li h4 {
-        left: 11px
-    }
-
-    ul.skills-list .percentage span{
-        left: 24px;
-    }
-    
-    ul.skills-list li .progress .percentage {
-        width: 35px
-    }
-
-    .row .col-sm-12:nth-child(odd) {
-        margin-bottom: 30px
-    }
-
     .work .cover-leter-content {
-        padding: 4.5rem 1.5rem;
+        padding: 4.5rem 0.8rem;
     }
     .work .cover-leter-content::after {
-        right: 1.5rem;
+        right: 0.8rem;
     }
 
     .footer.wrapper {
