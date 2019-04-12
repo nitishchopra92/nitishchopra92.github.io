@@ -1111,8 +1111,8 @@ font-family: 'Lora-Regular';
         top: -50px;
     }
 
-    .row .col-sm-12:nth-child(odd) {
-        margin-bottom: 30px
+    .row .col-sm-12:nth-child(even) {
+        margin-top: 30px
     }
     
     .row .col-sm-12:nth-child(last) {
@@ -1192,7 +1192,7 @@ font-family: 'Lora-Regular';
         padding-left: 15px;
         padding-right: 15px;
         border: 10px solid #ffffff;
-        padding-bottom: 70px !important
+        padding-bottom: 70px !important;
     }
 
     .work .inner-work .row .col-sm-12{
