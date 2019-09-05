@@ -947,7 +947,7 @@ ul.language-list {
 .work .cover-leter-content::before{
     content: '';
     position: absolute;
-    width: 65vh;
+    width: 40%;
     height: 10px;
     background-color: #fafafa;
     top: 2.5rem;
@@ -956,7 +956,7 @@ ul.language-list {
 .work .cover-leter-content::after{
     content: '';
     position: absolute;
-    width: 65vh;
+    width: 40%;
     height: 10px;
     background-color: #fafafa;
     bottom: 2.5rem;
