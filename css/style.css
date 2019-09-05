@@ -311,8 +311,8 @@ body {
 }
 
 .inner-container .profile-img img {
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 	border: 8px solid #fafafa
 }
 
@@ -364,7 +364,6 @@ section {
 
 .inner-about {
 	border: 15px solid #efefef;
-	min-height: 90vh
 }
 
 .block-main-title {
@@ -943,14 +942,14 @@ ul.language-list {
     position: relative;
     padding-top: 5rem;
     padding-bottom: 4.5rem;
-    background-image: linear-gradient(45deg ,#4e93e6 30%, #864be3 70%);
+    background-color: #e6e6e6;
 }
 .work .cover-leter-content::before{
     content: '';
     position: absolute;
     width: 65vh;
     height: 10px;
-    background-image: linear-gradient(45deg ,#4e93e6 30%, #864be3 70%);
+    background-color: #fafafa;
     top: 2.5rem;
 }
 
@@ -959,21 +958,21 @@ ul.language-list {
     position: absolute;
     width: 65vh;
     height: 10px;
-    background-image: linear-gradient(45deg ,#4e93e6 30%, #864be3 70%);
+    background-color: #fafafa;
     bottom: 2.5rem;
     right: 2.5rem;
 }
 
 .work .cover-leter-content p{
     font-family: 'Lora-Italic'; 
-    color: #ffffff;
+    color: #333333;
     line-height: 1.5;
     font-size: 0.9rem;
 }
 
 .work .cover-leter-content p span{
     font-family: 'Lora-Italic'; 
-    color: #ffffff;
+    color: #333333;
     line-height: 1.5;
     font-size: 0.9rem;
 }
