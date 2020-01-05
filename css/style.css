@@ -665,16 +665,18 @@ section {
 }
 
 .block-skills ul {
-	list-style: none;
-	height: 50vh;
-	padding-left: 0px
+    list-style: none;
+    padding-left: 0px;
+    text-align: left;
 }
 
 .skills-list li {
     display: inline-block;
-    height: 50vh;
-    margin-right: 10px;
-    width: 50px;
+    margin: 10px 20px;
+    padding-left: 30px;
+    background: #4e93e6;
+    padding-right: 30px;
+    border-radius: 4px;
 }
 
 .progress {
@@ -698,23 +700,13 @@ section {
 .skills-list h4 {
     bottom: 0;
     color: #ffffff;
-    font-size: 12px;
-    left: 17px;
-    position: absolute;
+    font-size: 14px;
     text-transform: uppercase;
-    transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform-origin: left top 0;
-    -webkit-transform-origin: left top 0;
-    -moz-transform-origin: left top 0;
-    -ms-transform-origin: left top;
-    -webkit-transform-origin: left top 0;
-    -o-transform-origin: left top;
     z-index: 1;
-    font-family: 'Montserrat-Regular';
+    font-family: 'Lora-Italic';
+    margin-bottom: 0px;
+    line-height: 50px;
+    text-transform: capitalize;
 }
 
 .progress.dv .percentage {
@@ -839,7 +831,6 @@ ul.language-list {
     position: relative;
     border-radius: 25px;
     -webkit-border-radius: 25px;
-    background-image: linear-gradient(45deg ,#4e93e6 30%, #864be3 70%);
 }
 
 .personal-list li {
@@ -1157,16 +1148,9 @@ ul.language-list {
         border: 10px solid #fafafa;
     }
 
-    .block-skills ul.skills-list {
-        height: 80vh;
-    }
-
-    .block-skills ul.skills-list li{
-        height: 80vh;
-    }
-
-    ul.skills-list li {
-        width: 35px
+    .skills-list li {
+        margin: 10px 0px;
+        width: 100%;
     }
 
     ul.skills-list li h4 {
@@ -1248,65 +1232,5 @@ ul.language-list {
     }
     .footer.wrapper .wrapper-inner{
         height: 37vh;
-    }
-}
-
-@media screen and (max-width: 576px){
-    .block-skills ul.skills-list {
-        height: 50vh;
-    }
-
-    .block-skills ul.skills-list li{
-        height: 50vh;
-    }
-}
-@media screen and (max-width: 476px){
-    ul.skills-list{
-        height: 40vh;
-    }
-
-    ul.skills-list li {
-        width: 28px;
-        height: 40vh;
-        margin-right: 5px
-    }
-
-    ul.skills-list li h4 {
-        left: 8px;
-        font-size: 10px
-    }
-
-    ul.skills-list .percentage span{
-        left: 21px;
-    }
-    
-    ul.skills-list li .progress .percentage {
-        width: 35px
-    }
-}
-
-@media screen and (max-width: 390px){
-
-    ul.skills-list{
-        height: 40vh;
-    }
-
-    ul.skills-list li {
-        width: 20px;
-        height: 40vh;
-        margin-right: 5px
-    }
-
-    ul.skills-list li h4 {
-        left: 5px;
-        font-size: 10px
-    }
-
-    ul.skills-list .percentage span{
-        left: 18px;
-    }
-    
-    ul.skills-list li .progress .percentage {
-        width: 20px
     }
 }
